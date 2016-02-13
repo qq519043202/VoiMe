@@ -1,0 +1,74 @@
+ .button-success,
+        .button-error,
+        .button-warning,
+        .button-secondary {
+            color: white;
+            border-radius: 4px;
+            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+        }
+
+        .button-success {
+            background: rgb(28, 184, 65); /* this is a green */
+        }
+
+        .button-error {
+            background: rgb(202, 60, 60); /* this is a maroon */
+        }
+
+        .button-warning {
+            background: rgb(223, 117, 20); /* this is an orange */
+        }
+
+        .button-secondary {
+            background: rgb(66, 184, 221); /* this is a light blue */
+        }
+
+
+    #div_img{
+    position: fixed;
+    right: 1em;
+    top: 1em;
+    z-index:5;
+    }
+    .yuan_img{
+    border-radius:50px; 
+    height:4em;
+    width:4em;
+    }
+    .yuan_img_2{
+    border-radius:50px; 
+    height:5em;
+    width:5em;
+    }
+
+    html, button, input, select, textarea,
+    .pure-g [class *= "pure-u"] {
+    /* Set your content font stack here: */
+    font-family: Georgia, Times, "Times New Roman", serif;
+    }
+
+.pure-form button[type=submit] {
+     margin-top: 0;
+}
+
+.liuyan{
+    display: none;
+}
+
+@media screen and (max-width: 35.5em){
+    .pure-form button[type=submit],
+    .button-success,
+    .button-error,
+    .button-warning,
+    .button-secondary {
+        margin-top: 0.7em;
+    }
+    #div_img{
+        right: 0.4em;
+        top: 0.4em;
+        }
+    .yuan_img{
+    height:3em;
+    width:3em;
+    }
+}
