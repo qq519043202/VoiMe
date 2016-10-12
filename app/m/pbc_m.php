@@ -15,7 +15,7 @@ class pbc_m extends m{
 		foreach ($res as &$val) {
 			$id = $val['user_id'];
 			$name = $this->db->query("SELECT name FROM logins WHERE id = $id; ");
-			$val['user_id'] = $name[0]['name'];
+			$val['user_name'] = $name[0]['name'];
 		}
 		// print_r($res);
 		return $res;

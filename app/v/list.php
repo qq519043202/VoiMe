@@ -17,7 +17,7 @@
             <div class="pure-g">
                 <input value=<?php echo "$id"; ?> class ="hidden" />
                 <h2 class="content-subhead pure-u-1-3 pure-u-sm-1-2"><b><?php echo $k['time']?></b></h2>
-                <p class="content-subhead pure-u-1-3 pure-u-sm-1-2">by <?php echo $k['user_id']?></p>
+                <p class="content-subhead pure-u-1-3 pure-u-sm-1-2">by <a href="<?=BASE ?>/index.php/home/user?id=<?=$k['user_id']?>"><?php echo $k['user_name']?></a></p>
 
                 <div class="pure-u-1 pure-u-sm-3-8 pure-u-md-1-2"><a class="pure-button play" href="javascript:void(0)">>>><?php echo $k['lenth']; ?>>>></a>
                 <audio controls hidden>

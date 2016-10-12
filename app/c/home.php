@@ -18,6 +18,10 @@ class home extends base{
 		$param['res'] =  $this->m->get_user_name($this->m->all());
 		$this->display('v/list',$param);
 	}
+	function user()
+	{
+		$this->display("v/user");
+	}
 	function get_liuyan()
 	{
 		$this->m->get_liuyan();
